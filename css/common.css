@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Noto+Sans+KR:wght@200;300;400;500;700;900&display=swap');
+@import url('https://webfontworld.github.io/score/SCoreDream.css');
+
+
+:root {
+    --point: #0C72A7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+img, div {
+    display: block;
+}
+
+.bars, .close {
+    display: none;
+}
+
+/* header */
+
+
+
+.header {
+    width: 100%;
+    height: 130px;
+    z-index: 11;
+    /* position: relative; */
+}
+
+.header .wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header .top {
+    background-color: #27313B;
+    
+}
+
+.header .top .wrap {
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center; 
+}
+
+.header .top .left {
+    display: flex;
+    margin-left: -13px;
+}
+
+.header .top .left li a {
+    position: relative;
+    padding: 0 13px;
+}
+
+.header .top .left li a::after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    right: 0;
+    height: 12px;
+    border-right: 1px solid #5B6875;
+}
+
+.header .top .left li:last-child a::after {
+    border-right: none;
+}
+
+.header .top .right {
+    display: flex;
+}
+
+.header .top .right li a {
+    position: relative;
+    padding: 0 13px;
+}
+
+.header .top .right li:last-child a {
+    padding-right: 0;
+}
+
+.header .top .right li a::after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    right: 0;
+    height: 12px;
+    border-right: 1px solid #5B6875;
+}
+
+.header .top .right li:last-child a::after {
+    border-right: none;
+}
+
+.header .top .right li .icon {
+    margin-left: 12px;
+    font-size: 8px;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+.header .top .right .btn-lang  {
+    position: relative;
+}
+
+.header .top .right .langs {
+    z-index: 111;
+    position: absolute;
+    top: 40px;
+    left: 12px;
+    display: block;
+    width: 100px;
+    background-color: #27313b;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+    display: none;
+}
+
+.header .top .right .langs li {
+    display: block;
+    padding: 8px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.header .top .right .langs li a::after {
+    display: none;
+}
+
+.header .top .right .langs li:last-child {
+    border-bottom: none;
+}
+
+.header .middle {
+    display: block;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    height: 86px;
+    /* align-items: center; */
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.header .middle .wrap {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+}
+
+.header .middle:hover {
+    background: #fff;
+}
+
+.header .middle:hover .logo img {
+    width: 151px;
+    height: 30px;
+    background-image: url(../images/logo-color.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header .middle:hover li {
+    color: #333;
+}
+
+.gnb {
+    display: flex;
+    margin-right: -40px;
+    position: relative;
+}
+
+/* .gnb:hover {
+    text-decoration: underline;
+    color: blue;
+    width: 10px;
+    style: solid;
+    transition: 0.5s;
+} */
+
+.gnb>li {    
+    position: relative;
+}
+
+.gnb>li>a {
+    padding: 30px 40px;
+    font-size: 17px;
+}
+
+.gnb>li .menu {
+    position: relative;
+}
+
+.gnb>li:hover .menu {
+    border-bottom: 4px solid #27313b;
+    bottom: 0;
+    z-index: 11;
+    transition: 0.1s ease-in;
+}
+
+.gnb ul {
+    display: none;
+    width: 100%;
+    min-width: 220px;
+    padding: 25px 22px;
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+    background-color: #fff;
+    z-index: 1;
+}
+
+.gnb ul li {
+    background-color: #fff;
+    padding: 8px 0;
+}
+
+.gnb ul li a {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}
+
+.xi-external-link {
+    color: #999;
+    padding-left: 6px;
+}
+
+.footer {
+    height: 244px;
+    background-color: #1F1F1F;
+    color: #fff;
+    font-weight: 400;
+}
+
+.footer .top {
+    height: 62px;
+    border-bottom: 1px solid #4C4C4C;
+}
+
+.footer .top .wrap {
+    width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .bottom {
+    height: 182px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .bottom .wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .f_logo {
+    width: 160px;
+    
+}
+
+.f_logo img {
+    width: 151px;
+    height: 29px;
+}
+
+.f_menu {
+    display: flex;
+    font-weight: 300;
+    gap: 43px;
+}
+
+.footer .right {
+    display: flex;
+}
+
+.f_site {
+    display: flex;
+    width: 185px;
+    height: 62px;
+    justify-content: space-between;
+    padding: 20px;
+    border-left: 1px solid #4C4C4C;
+    border-right: 1px solid #4C4C4C;
+    position: relative;
+    align-items: center;
+}
+
+.f_site > li {
+    width: 100%;
+    text-align: left;
+}
+
+.f_site ul {
+    display: none;
+    position: absolute;
+    bottom: 62px;
+    left: 0;
+    background-color: #3e3e3e;
+    z-index: 1;
+    opacity: 0.7;
+    transition: opacity .3s;
+    transition-duration: 0.3s;
+}
+
+.f_site ul:hover {
+    opacity: 1;
+}
+
+.f_site ul li {
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid #4C4C4C;
+}
+
+.f_site .arrow {
+    /* background-color: red; */
+    height: 40%;
+    align-items: center;
+    
+}
+
+.f_site .arrow img {
+    width: 9px;
+    height: 6px;
+}
+
+.btn_top {
+    width: 60px;
+    height: 62px;
+    background-color: #434343;
+    border-right: 1px solid #4C4C4C;
+}
+
+.btn_top .text_box {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    padding: 12px;
+}
+
+.btn_top img {
+    display: block;
+    width: 17px;
+    height: 20px;
+    margin: 0 auto;
+
+}
+
+.bottom {
+    font-weight: 200;
+}
+.f_info .info {
+    display: flex;
+    gap: 29px;
+    padding-top: 5px;
+}
+
+.f_info .copy {
+    color: #949494;
+    padding-top: 31px;
+}
+

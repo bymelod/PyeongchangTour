@@ -1,0 +1,292 @@
+
+.f-slider {
+    width: 100%;
+    height: 100vh;
+    max-height: 750px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 44px;
+    left: 74px;
+    z-index: 1;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.logo img {
+    width: 167px;
+    height: 56px;
+}
+
+
+.f-slide .item {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-height: 750px;
+}
+
+.f-slide .item .content {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1100px;
+    z-index: 11;
+    color: #fff;
+}
+
+.f-slide .item .content h2 {
+    font-size: 62px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 80px;
+}
+
+.f-slide .item .content p {
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.f-slide .item .content a {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    width: 188px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    display: block;
+}
+
+.f-slide .item .content a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.f-slide .item img {
+    width: 100%;
+    height: 100%;
+}
+
+.f-slider .control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    z-index: 11;
+}
+
+.f-slider .control .counts {
+    display: inline-block;
+    text-align: center;
+}
+
+.counts .slide-count {
+    vertical-align: top;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+.counts .count {
+    vertical-align: bottom;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.f-slider .control .counts .stick {
+    content: "";
+    display: block;
+    width: 34px;
+    height: 2px;
+    margin: 18px 0;
+    background-color: #fff;
+}
+
+
+.f-slider .control .arrows {
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.arrows:first-child {
+    vertical-align: top;
+  }
+
+.arrows:last-child {
+    vertical-align: bottom;
+}
+
+.f-slider .control .arrows .arrow {
+    cursor: pointer;
+}
+
+.f-slider .control .arrows .stick {
+    content: "";
+    display: block;
+    width: 34px;
+    height: 2px;
+    margin: 18px 0;
+    background-color: #fff;
+}
+
+/* body */
+
+/* f-menu */
+.f-menu {
+    width: 100%;
+    height: 100vh;
+    top: calc(100vh + 80px);
+    max-height: 750px;
+    position: relative;
+}
+
+.f-menu .items {
+    width: 208px;    
+    position: fixed;
+    top: 80px;
+    right: -40px;
+}
+
+.f-menu .items.on {
+    right: 0;
+}
+
+.f-menu .item {
+    padding: 3px 0;
+    position: relative;
+    width: 225px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+.f-menu .item p {
+    position: absolute;
+    top: 12px;
+    left: 22px;
+    color: #fff;
+    font-weight: 400;
+    z-index: 11;
+    
+}
+
+.f-menu .item .effect {
+    background-color: #41465B;
+    transition-duration: 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.f-menu .item img {
+    width: 225px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+/* body */
+.body {
+    padding: 100px 0;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.body h3 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.body .part-2 {
+    margin-top: 56px;
+}
+
+.body h4 {
+    font-size: 23px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.body p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #4e4e4e;
+    text-align: justify;
+}
+
+.body p span {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.body p:last-child {
+    margin-bottom: 0;
+}
+
+.body img {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.body .full {
+    height: 617px;
+}
+
+.body .grid {
+    height: 622px;
+}
+
+.body .grid-1 {
+    height: 306px;
+}
+
+.body .grid-2 {
+    height: 719px;
+}
+
+.body .grid-3 {
+    height: 959px;
+}
+
+.body .grid-4 {
+    height: 933px;
+}
+
+.body .grid-5 {
+    height: 530px;
+}
+
+.body .grid-6 {
+    height: 857px;
+}
+
+.body .grid-7 {
+    height: 846px;
+}
+
+.body .grid-8 {
+    height: 846px;
+}
+
+
+.body .grid-9 {
+    height: 1336px;
+}
+
+.footer {
+    margin-top: 100px;
+}
+

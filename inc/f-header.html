@@ -1,0 +1,101 @@
+<div class="f-slider">
+    <div class="logo">
+        <a href="../pages/main.html"><img src="../images/theme-logo-white.png" alt=""></a>
+    </div>
+    <div class="f-slide">
+        <div class="item">
+            <img src="../images/slide-theme-1.jpg" alt="테마슬라이드1">
+            <div class="content">
+                <h2>육백마지기</h2>
+                <p>'샤스타데이지' 천상의 화원</p>
+                <a href="../pages/famous-01.html" class="btn">VIEW MORE</a>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="../images/slide-theme-2.jpg" alt="테마슬라이드2">
+            <div class="content">
+                <h2>발왕산 기(氣)스카이워크 &<br>
+                    대관령목장</h2>
+                <p>기(氣)가 뚫리는 평창 여행코스</p>
+                <a href="../pages/famous-02.html" class="btn">VIEW MORE</a>
+            </div>
+        </div>
+        
+        <div class="item">
+            <img src="../images/slide-theme-3.jpg" alt="테마슬라이드3">
+            <div class="content">
+                <h2>이효석문화예술촌</h2>
+                <p>메밀꽃 필 무렵</p>
+                <a href="../pages/famous-03.html" class="btn">VIEW MORE</a>
+            </div>
+        </div>
+        
+        <div class="item">
+            <img src="../images/slide-theme-4.jpg" alt="테마슬라이드4">
+            <div class="content">
+                <h2>평창택시투어</h2>
+                <p>편안하게 즐기는 평창</p>
+                <a href="../pages/famous-04.html" class="btn">VIEW MORE</a>
+            </div>
+        </div>
+        
+        <div class="item">
+            <img src="../images/slide-theme-5.jpg" alt="테마슬라이드5">
+            <div class="content">
+                <h2>반려동물과 함께하는 평창</h2>
+                <p>사랑하는 반려동물과 함께하세요.</p>
+                <a href="../pages/famous-05.html" class="btn">VIEW MORE</a>
+            </div>
+        </div>
+        
+        <div class="item">
+            <img src="../images/slide-theme-6.jpg" alt="테마슬라이드6">
+            <div class="content">
+                <h2>평창카페투어</h2>
+                <p></p>
+                <a href="../pages/famous-06.html" class="btn">VIEW MORE</a>
+            </div>
+        </div>
+        
+        <div class="item">
+            <img src="../images/slide-theme-7.jpg" alt="테마슬라이드7">
+            <div class="content">
+                <h2>평창싱싱먹거리투어</h2>
+                <p>맛있게 즐기는 평창</p>
+                <a href="../pages/famous-07.html" class="btn">VIEW MORE</a>
+            </div>
+        </div>
+      
+
+
+    </div>
+    <div class="control">
+        <div class="counts">
+            <div class="slide-count"><span>01</span></div>
+            <span class="stick"></span>
+            <div class="count"><span>07</span></div>    
+        </div>
+        
+        <div class="arrows">
+            <div class="arrow"><i class="xi-angle-right"></i></div>
+            <span class="stick"></span>
+            <div class="arrow"><i class="xi-angle-left"></i></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    
+  // 대표관광지 슬라이드
+  $('.f-slide').slick({
+    slidesToShow: 1,
+    prevArrow: $('.f-slider .xi-angle-left'),
+    nextArrow: $('.f-slider .xi-angle-right')
+  })
+  
+  .on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+    $('.f-slider .slide-count').text(`0${nextSlide + 1}`)
+  })
+  
+</script>

@@ -1,0 +1,89 @@
+<div class="top">
+    <div class="wrap">
+        <ul class="left">
+            <li><a href="#x">평창행정포털</a></li>
+            <li><a href="#x">평창시티투어</a></li>
+            <li><a href="#x">평창관광택시</a></li>
+        </ul>
+    
+         <ul class="right">
+            <li class="btn-lang"><a href="#X">Language<span class="icon">▼</span></a>
+                <ul class="langs">
+                    <li><a href="#x">KO</a></li>
+                    <li><a href="#x">EN</a></li>
+                    <li><a href="#x">JP</a></li>
+                    <li><a href="#x">CH</a></li>
+                </ul>
+            </li>
+            <li><a href="#x">Home</a></li>
+            <li><a href="#x">Login</a></li>
+        </ul>
+    </div>
+</div>
+    
+
+<div class="middle">
+    <div class="wrap">
+        <a href="../pages/main.html" class="logo"></a>
+        <div class="bars"><img src="../images/bar.png" alt=""></div>
+        <ul class="gnb">
+            <li>
+                <a href="#x" class="menu">추천여행</a>
+                <ul>
+                    <li><a href="../pages/theme.html">테마여행</a></li>
+                    <li><a href="#x">추천코스</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#x" class="menu">관광명소</a>
+                <ul>
+                    <li><a href="../pages/famous-01.html" target="_blank">대표관광지 
+                        <i class="xi-external-link"></i>
+                    </a></li>
+                    <li><a href="#x">평창관광지</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#x" class="menu">여행가이드</a>
+                <ul>
+                    <li><a href="#x">평창시티투어</a></li>
+                    <li><a href="#x">관광홍보물신청</a></li>
+                    <li><a href="#x">관광안내소</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#x" class="menu">음식/숙박/쇼핑</a>
+                <ul>
+                    <li><a href="">먹을래요</a></li>
+                    <li><a href="">잘래요</a></li>
+                    <li><a href="">살래요</a></li>
+                </ul>
+            </li>
+
+        </ul>
+
+        <div class="close"><img src="../images/close-white.png" alt=""></div>
+    </div>
+</div>
+    
+<script>
+   
+//  gnb 메뉴
+$('.gnb>li').hover(
+    function(){
+        $(this).find('ul').stop().fadeIn()
+    },
+    function(){
+        $(this).find('ul').stop().fadeOut()
+    },
+  )
+
+//  langs 메뉴
+  $('.header .right>li').click(function(){
+		$('.langs').stop().fadeToggle()
+	})
+
+
+
+
+</script>
