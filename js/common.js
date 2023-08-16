@@ -82,12 +82,12 @@ $('.popup .slide').slick({
   });
 
   // section05 슬라이드
-  $('.section05 .boxes').slick({
-    slidesToShow: 1,
-    variableWidth: true,
-    prevArrow: $('.section05 .hide'),
-    nextArrow: $('.section05 .show'),
-  })
+  // $('.section05 .boxes').slick({
+  //   slidesToShow: 1,
+  //   variableWidth: true,
+  //   prevArrow: $('.section05 .hide'),
+  //   nextArrow: $('.section05 .show'),
+  // })
 
 
 
