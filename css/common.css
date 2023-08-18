@@ -198,21 +198,14 @@ img, div {
     position: relative;
 }
 
-/* .gnb:hover {
-    text-decoration: underline;
-    color: blue;
-    width: 10px;
-    style: solid;
-    transition: 0.5s;
-} */
-
 .gnb>li {    
     position: relative;
 }
 
 .gnb>li>a {
     padding: 30px 40px;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .gnb>li .menu {
