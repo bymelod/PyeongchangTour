@@ -2,6 +2,7 @@ $(function(){
   $('.header').load('../inc/header.html')
   $('.footer').load('../inc/footer.html')
   $('.f-header').load('../inc/f-header.html')
+  $('.head-theme').load('../inc/head-theme.html')
 
 
   
