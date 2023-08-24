@@ -29,6 +29,10 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+h2 {
+    font-weight: 900;
+}
+
 img, div {
     display: block;
 }

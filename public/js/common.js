@@ -82,15 +82,6 @@ $('.popup .slide').slick({
     focusOnSelect: true
   });
 
-  // section05 슬라이드
-  // $('.section05 .boxes').slick({
-  //   slidesToShow: 1,
-  //   variableWidth: true,
-  //   prevArrow: $('.section05 .hide'),
-  //   nextArrow: $('.section05 .show'),
-  // })
-
-
 
   // 테마여행 페이지 슬라이드
   $('.slide-theme').slick({
@@ -118,7 +109,6 @@ $('.popup .slide').slick({
     $('.theme-section02 .tab-content div').css('display','none')
     $('.theme-section02 .tab-content div').eq($(this).index()).css('display','block')
 });
-
 
   // 테마여행 상세페이지 section03 탭
   $('.theme-section03 .tab li').eq(0).addClass('on')

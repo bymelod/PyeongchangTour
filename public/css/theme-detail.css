@@ -64,6 +64,7 @@ h2 {
     margin-bottom: 20px;
     width: 500px;
     border-bottom: 2px dashed #e1e1e1;
+    cursor: pointer;
 }
 
 .theme-section01 .right .tags a {
@@ -182,6 +183,12 @@ h2 {
 }
 
 .theme-section02 .tab-title h3.on {
+    background-color: #0C72A7;
+    color: #fff;
+    font-weight: 400;
+}
+
+.theme-section02 .tab-title h3.on:hover {
     background-color: #0C72A7;
     color: #fff;
     font-weight: 400;

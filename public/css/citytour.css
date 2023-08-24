@@ -1,6 +1,202 @@
-.container {
+h2 {
+    margin-bottom: 60px;
+}
+.visual {
+    height: 720px;
+    position: relative;
+    margin-bottom: 250px;
 }
 
-.photo {
-    background-image: url(../images/citytour-back.png);
+.visual  .back {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 240px;
+}
+
+.visual  .front {
+    z-index: 11;
+    position: absolute;
+    bottom: -144px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.info {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 55px;
+    color: #555;
+}
+
+.textbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 373px;
+    height: 338px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 6px 6px rgba(0,0,0,0.07);
+}
+
+.box .title {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    line-height: 45px;
+}
+
+.box .title img {
+    width: 15px;
+    height: 18px;
+}
+
+.box .title h4 {
+    font-size: 23px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.box .title::after {
+    content: "";
+    width: 260px;
+    height: 110px;
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    background-color: #0c72a7;
+    z-index: -1;
+}
+
+.box:nth-child(1) .content {
+    padding-top: 20px;
+}
+
+.box:nth-child(2) .content {
+    padding-top: 30px;
+}
+
+.box .content .main {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0C72A7;
+}
+
+.box .content .sub {
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 22px;
+}
+
+.link-btn {
+    margin: 60px auto;
+    width: 317px;
+    height: 74px;
+    border-radius: 10px;
+    background-color: #0c72a7;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+.link-btn i {
+    color: #fff;
+    font-size: 27px;
+}
+
+.check {
+    color: #333;
+    padding-top: 30px;
+}
+
+.check .top {
+    display: flex;
+    gap: 60px;
+    height: 60px;
+    padding-left: 40px;
+    border: 1px solid #DEDEDE;
+    background-color: #FAFAFA;
+}
+
+.check .top .item {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.check .top img {
+    width: 28px;
+    height: 28px;
+}
+
+.check .top h5 {
+    padding-right: 4px;
+    font-size: 18px;
+}
+
+.check .bottom {
+    padding-left: 40px;
+    align-items: center;
+    display: flex;
+    border: 1px solid #DEDEDE;
+    border-top: none;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.check .star {
+    display: flex;
+    padding: 0 22px;
+}
+
+.check .star img {
+    width: 18px;
+    height: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.check .btn {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #848484;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 90px;
 }

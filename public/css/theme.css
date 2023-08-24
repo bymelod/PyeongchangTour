@@ -35,7 +35,7 @@
     background-color: #F7F9FA;
     border-top: 1px solid #E1E1E1;
     border-bottom: 1px solid #E1E1E1;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 .head-theme .inner {
@@ -100,12 +100,11 @@
 
 h2 {
     font-family: 'SCoreDream';
-    font-weight: 800;
+    font-weight: 900;
     color: #0B72A6;
     font-size: 38px;
     text-align: center;
 }
-
 
 /* slider-theme */
 .slider-theme {
